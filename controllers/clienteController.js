@@ -56,6 +56,4 @@ exports.eliminarCliente = async (req, res) => {
   } catch (error) {
     res.status(500).json({ mensaje: "Error al eliminar cliente", error });
   }
-};
-
-module.exports = {agregarCliente, obtenerClientes, buscarCliente, actualizarEstadoPago, eliminarCliente };
+}
